@@ -1,5 +1,5 @@
 ;(function () {
-	
+
 	'use strict';
 
 
@@ -29,7 +29,7 @@
 		var extraHeight = 0;
 
 		if ( isMobile.any() ) extraHeight = 50;
-		
+
 		setTimeout(function(){
 			$('#fh5co-main').stop().animate({
 				'height': $('.fh5co-tab-content.active').height() + extraHeight
@@ -42,7 +42,7 @@
 			scaleColor: false,
 			lineWidth: 10,
 			lineCap: 'butt',
-			barColor: '#17e7a4',
+			barColor: '#41B883',
 			trackColor:	"#000000",
 			size: 160,
 			animate: 1000
@@ -80,7 +80,7 @@
 					pieChart();
 				}, 800);
 			}
-			
+
 		})
 	};
 
